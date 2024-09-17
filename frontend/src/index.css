@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,body{
+  margin:0;
+  padding:0;
+  background:#282626;
+  color:white;
+  font-family: "Roboto Slab",serif;
+  /* overflow-y: hidden; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.robot{
+  filter: invert(0%); /*It's the same as invert colors function on your phone*/
+}
+
+.flyingRobot{
+  filter:invert(0%);
+}
+
+.nav-link{
+  font-weight:600;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: None;
+  letter-spacing: 1px;
+}
+
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedINput-notchedOutline{
+    border-color: white;
+}
+
+.css-1e02qv5{
+  padding-bottom:0;
+  margin-bottom: 0;
+}
+
+textarea{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
